@@ -19,6 +19,11 @@ body {
     height: 50%;
     width: 100%;
 }
+@media (max-width: 480px) {
+    .logos-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 .consul-container {
     width: 100%;
     height: 100%;
